@@ -57,13 +57,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tilSecondNumber" />
 
+
     <Button
         android:id="@+id/btnAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="92dp"
-        android:text="Addition"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="100dp"
+        android:text="+"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tilSecondNumber" />
 
@@ -72,10 +73,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="88dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="39dp"
-        android:text="Subtract"
+        android:text="-"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
         app:layout_constraintStart_toEndOf="@+id/btnAdd"
         app:layout_constraintTop_toBottomOf="@+id/tilSecondNumber" />
 
@@ -83,9 +85,9 @@
         android:id="@+id/btnDivide"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
+        android:layout_marginStart="52dp"
         android:layout_marginTop="84dp"
-        android:text="Division"
+        android:text="/"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnAdd" />
 
@@ -96,8 +98,9 @@
         android:layout_marginStart="96dp"
         android:layout_marginTop="84dp"
         android:layout_marginEnd="39dp"
-        android:text="Modulus"
+        android:text="%"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
         app:layout_constraintStart_toEndOf="@+id/btnDivide"
         app:layout_constraintTop_toBottomOf="@+id/btnMinus" />
 </androidx.constraintlayout.widget.ConstraintLayout>
